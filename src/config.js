@@ -13,6 +13,8 @@ const dev = {
         APP_CLIENT_ID: "5894c3p6lun0gspv986k2aevjq",
         IDENTITY_POOL_ID: "us-east-1:446e2eee-f289-426e-a228-67b7899ae802"
     }
+
+    STRIPE_KEY: "pk_test_FGwdBcjGGwoiXiG3VsYvoRYf",
 };
 
 const prod = {
@@ -30,6 +32,7 @@ const prod = {
         APP_CLIENT_ID: "18m0hpvrihsuv9ieb539hv0hqt",
         IDENTITY_POOL_ID: "us-east-1:b0552680-59c1-49aa-9637-c936a45c8b18"
     }
+    STRIPE_KEY: "pk_test_FGwdBcjGGwoiXiG3VsYvoRYf",
 };
 
 // Default to dev if not set
