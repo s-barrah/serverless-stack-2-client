@@ -11,7 +11,7 @@
     "react-router-dom": "^4.2.2",
     "react-scripts": "^3.0.1",
     "react-stripe-elements": "^2.0.1",
-    "snyk": "^1.224.0"
+    "snyk": "^1.231.0"
   },
   "scripts": {
     "start": "react-scripts start",
