@@ -1,37 +1,37 @@
 const dev = {
     s3: {
-        REGION: "us-east-1",
-        BUCKET: "notes-app-2-api-dev-attachmentsbucket-dcxed7uhe3p3"
+        REGION: process.env.REGION,
+        BUCKET: process.env.REACT_APP_S3_BUCKET_DEV
     },
     apiGateway: {
-        REGION: "us-east-1",
-        URL: "https://1kfcuktm80.execute-api.us-east-1.amazonaws.com/dev"
+        REGION: process.env.REGION,
+        URL: process.env.REACT_APP_URL_DEV
     },
     cognito: {
-        REGION: "us-east-1",
-        USER_POOL_ID: "us-east-1_EVoA0iV1j",
-        APP_CLIENT_ID: "5894c3p6lun0gspv986k2aevjq",
-        IDENTITY_POOL_ID: "us-east-1:446e2eee-f289-426e-a228-67b7899ae802"
+        REGION: process.env.REGION,
+        USER_POOL_ID: process.env.REACT_APP_USER_POOL_ID_DEV,
+        APP_CLIENT_ID: process.env.REACT_APP_APP_CLIENT_ID_DEV,
+        IDENTITY_POOL_ID: process.env.REACT_APP_IDENTITY_POOL_ID_DEV
     },
-    STRIPE_KEY: "pk_test_FGwdBcjGGwoiXiG3VsYvoRYf",
+    STRIPE_KEY: process.env.REACT_APP_URL_STRIPE_KEY_DEV,
 };
 
 const prod = {
     s3: {
-        REGION: "us-east-1",
-        BUCKET: "notes-app-2-api-prod-attachmentsbucket-40xdf2xecpxp"
+        REGION: process.env.REGION,
+        BUCKET: process.env.REACT_APP_S3_BUCKET_PROD
     },
     apiGateway: {
-        REGION: "us-east-1",
-        URL: "https://debfogfruc.execute-api.us-east-1.amazonaws.com/prod"
+        REGION: process.env.REGION,
+        URL: process.env.REACT_APP_URL_PROD
     },
     cognito: {
-        REGION: "us-east-1",
-        USER_POOL_ID: "us-east-1_VwNCaH2Re",
-        APP_CLIENT_ID: "18m0hpvrihsuv9ieb539hv0hqt",
-        IDENTITY_POOL_ID: "us-east-1:b0552680-59c1-49aa-9637-c936a45c8b18"
+        REGION: process.env.REGION,
+        USER_POOL_ID: process.env.REACT_APP_USER_POOL_ID_PROD,
+        APP_CLIENT_ID: process.env.REACT_APP_APP_CLIENT_ID_PROD,
+        IDENTITY_POOL_ID: process.env.REACT_APP_IDENTITY_POOL_ID_PROD
     },
-    STRIPE_KEY: "pk_test_FGwdBcjGGwoiXiG3VsYvoRYf",
+    STRIPE_KEY: process.env.REACT_APP_URL_STRIPE_KEY_PROD,
 };
 
 // Default to dev if not set
