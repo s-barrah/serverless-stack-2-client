@@ -9,7 +9,7 @@
     "react-dom": "^16.2.0",
     "react-router-bootstrap": "^0.24.4",
     "react-router-dom": "^4.2.2",
-    "react-scripts": "^3.0.1",
+    "react-scripts": "^3.3.0",
     "react-stripe-elements": "^2.0.1",
     "snyk": "^1.231.0"
   },
