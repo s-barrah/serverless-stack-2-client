@@ -11,7 +11,7 @@
     "react-router-dom": "^4.2.2",
     "react-scripts": "^3.3.0",
     "react-stripe-elements": "^2.0.1",
-    "snyk": "^1.271.0"
+    "@snyk/protect": "latest"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -20,7 +20,7 @@
     "predeploy": "npm run build",
     "build:netlify": "npm run build && cp _redirects build/_redirects",
     "eject": "react-scripts eject",
-    "snyk-protect": "snyk protect",
+    "snyk-protect": "snyk-protect",
     "prepare": "npm run snyk-protect"
   },
   "snyk": true
